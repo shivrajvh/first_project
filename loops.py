@@ -1,3 +1,4 @@
+'''
 import random
 
 playerhealth = 500
@@ -15,4 +16,14 @@ while playerhealth >= 0:
 	if playerhealth > 10:
 		print("Enemy attacked for", random_no,"points. Balance health is,", playerhealth)
 
+'''
 
+def main():
+	x=0
+	#define a while loop
+	while(x <= 4):
+		print(x)
+		x = x+1
+
+if __name__ == "__main__":
+    main()
